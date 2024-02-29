@@ -57,15 +57,16 @@ Add water quality TDS sensor. Add high level sensor and automatic supply the wat
 <h3>Ressources links of the project</h3>
 
 <h3>Project description </h3>
-https://project.sophe.com/project_description.pdf
-https://github.com/ROMASZEWSKI/project-stm32wb5mm-dk-Contest-2024/blob/main/project_description.pdf
+https://project.sophe.com/project_description.pdf<br/>
+https://github.com/ROMASZEWSKI/project-stm32wb5mm-dk-Contest-2024/blob/main/project_description.pdf<br/>
 
-<h3>All files of the project </h3>
+<h3>All files of the project same as github</h3>
 https://project.sophe.com/stm32ContestAllProject.zip
  
 <b>For discovering the project :</b>
 Read project_description.pdf<br/>
 you find stm32cube_project.zip for stm32Cubeproject<br/>
+https://github.com/ROMASZEWSKI/project-stm32wb5mm-dk-Contest-2024/blob/main/stm32cube_project.zip<br />
 Parse PCB directory<br/>
 https://github.com/ROMASZEWSKI/project-stm32wb5mm-dk-Contest-2024/tree/main/PCB<br/>
 Parse 3D_print directory<br />
