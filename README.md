@@ -58,6 +58,7 @@ Add water quality TDS sensor. Add high level sensor and automatic supply the wat
 
 <h3>Project description </h3>
 https://project.sophe.com/project_description.pdf
+https://github.com/ROMASZEWSKI/project-stm32wb5mm-dk-Contest-2024/blob/main/project_description.pdf
 
 
 <h3>All files of the project </h3>
