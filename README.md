@@ -1,9 +1,12 @@
-<b>Zigbee Environmental measurement center for indoor plants or greenhouse</b>
+<h3>Zigbee Environmental measurement center for indoor plants or greenhouse</h3>
 
 The goal of this project is to create with STM32WB5MM-DK a device allowing environmental measurements as well as monitoring of soil humidity and soil temperature of plantations with the management of an automation allowing automated watering and additional illumination according to the measurements.
+[General Schematic of project.pdf](https://github.com/ROMASZEWSKI/project-stm32wb5mm-dk-Contest-2024/files/14449162/General.Schematic.of.project.pdf)
 
-<b>Project description</b>
-![box_running](https://github.com/ROMASZEWSKI/project-stm32wb5mm-dk-Contest-2024/assets/149319225/1fa089d6-ccde-4faa-a17b-630aac0d4306)
+
+<h3>Project description</h3>
+
+![Sensors in place (Petite)](https://github.com/ROMASZEWSKI/project-stm32wb5mm-dk-Contest-2024/assets/149319225/f77cbeac-67cb-4708-8d8a-a80df298e40e)
 
 The goal of this project is to create an environmental measurement unit, lighting and water supply for indoor plants or in a greenhouse using the stm32wb5mm-dk kit with communication in the Zigbee protocol to a server Mqtt linux on the internet through an Mqtt2Zigbee gateway under Windows 11, the information and automations then being processed by the Node-RED application under Linux with web user interface.
 The persistence of data is performed by Node-RED to a MariaDB database under Linux.  
@@ -39,7 +42,7 @@ By using Node-RED specialized in retrieving and modifying Topics, it is possible
 
 This project uses different skills: digital electronics, printed circuit design, 3D printing creation, microcontroller programming, internet networks, Mqtt server, Node-RED server, Mariadb database, Linux system.
 
-<b>My goals are as follows:</b>
+<h3>My goals are as follows:</h3>
 
 - The first objective which constitutes this project is the commissioning of the stm32wb5mm-dk kit with the use of the sensors on the card and the use of additional sensors connected to a daughter card (two layers shield PCB) . The design of a two specific box printed in ABS or ASA, on 3D printer. The card works in Router/CLUSTER client-server mode. Interface to Zigbee2mqtt application and Node-RED interface.
 
@@ -51,12 +54,13 @@ Add water quality TDS sensor. Add high level sensor and automatic supply the wat
 
 - The third objective is to use and evaluate the Thread network in place of Zigbee.
 
-<b>Ressources links of the project</b>
+<h3>Ressources links of the project</h3>
 
-Project description <br/>
-https://project.sophe.com/project_description.pdf"> project description.pdf
+<h3>Project description </h3>
+https://project.sophe.com/project_description.pdf
 
-All files of the project <br/>
+
+<h3>All files of the project </h3>
 https://project.sophe.com/stm32ContestAllProject.zip
  
 <b>For discovering the project :</b>
