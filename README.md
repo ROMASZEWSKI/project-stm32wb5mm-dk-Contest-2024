@@ -60,16 +60,20 @@ Add water quality TDS sensor. Add high level sensor and automatic supply the wat
 https://project.sophe.com/project_description.pdf
 https://github.com/ROMASZEWSKI/project-stm32wb5mm-dk-Contest-2024/blob/main/project_description.pdf
 
-
 <h3>All files of the project </h3>
 https://project.sophe.com/stm32ContestAllProject.zip
  
 <b>For discovering the project :</b>
-
 Read project_description.pdf<br/>
 you find stm32cube_project.zip for stm32Cubeproject<br/>
 Parse PCB directory<br/>
+https://github.com/ROMASZEWSKI/project-stm32wb5mm-dk-Contest-2024/tree/main/PCB<br/>
 Parse 3D_print directory<br />
+https://github.com/ROMASZEWSKI/project-stm32wb5mm-dk-Contest-2024/tree/main/3D_print<br/>
 Parse zigbee2mqtt directory, you can read Zigbee2Mqtt_on_Windows_install.pdf <br />
+https://github.com/ROMASZEWSKI/project-stm32wb5mm-dk-Contest-2024/tree/main/zigbee2mqtt<br/>
 Parse node-RED directory, you can read Installation_of_node-RED and persistence.pdf <br />
+https://github.com/ROMASZEWSKI/project-stm32wb5mm-dk-Contest-2024/tree/main/nodered<br />
 And some photos and datasheets.<br />
+https://github.com/ROMASZEWSKI/project-stm32wb5mm-dk-Contest-2024/tree/main/photos<br/>
+https://github.com/ROMASZEWSKI/project-stm32wb5mm-dk-Contest-2024/blob/main/datasheets.zip<br>
