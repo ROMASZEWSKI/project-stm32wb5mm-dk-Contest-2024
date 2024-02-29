@@ -1,0 +1,6 @@
+../Drivers/BSP/Component/veml7700/veml7700.c:24:6:veml7700_i2creadreg	1
+../Drivers/BSP/Component/veml7700/veml7700.c:33:6:veml7700_i2cwritereg	1
+../Drivers/BSP/Component/veml7700/veml7700.c:43:6:veml7700_setconfig	1
+../Drivers/BSP/Component/veml7700/veml7700.c:10:6:veml7700_init	1
+../Drivers/BSP/Component/veml7700/veml7700.c:57:10:veml7700_readals	2
+../Drivers/BSP/Component/veml7700/veml7700.c:66:10:veml7700_readwhite	2

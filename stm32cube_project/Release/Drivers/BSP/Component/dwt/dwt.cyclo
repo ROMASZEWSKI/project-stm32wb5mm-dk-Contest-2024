@@ -1,0 +1,5 @@
+../Drivers/BSP/Component/dwt/dwt.c:14:6:DwtInit	1
+../Drivers/BSP/Component/dwt/dwt.c:26:6:DwtStart	1
+../Drivers/BSP/Component/dwt/dwt.c:35:7:DwtInterval	1
+../Drivers/BSP/Component/dwt/dwt.c:44:13:DwtDelay_us	2
+../Drivers/BSP/Component/dwt/dwt.c:54:13:DwtDelay_ms	2

@@ -1,0 +1,9 @@
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c:141:19:HAL_EXTI_SetConfigLine	9
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c:266:19:HAL_EXTI_GetConfigLine	7
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c:360:19:HAL_EXTI_ClearConfigLine	4
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c:426:19:HAL_EXTI_RegisterCallback	2
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c:453:19:HAL_EXTI_GetHandle	2
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c:494:6:HAL_EXTI_IRQHandler	3
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c:532:10:HAL_EXTI_GetPending	1
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c:570:6:HAL_EXTI_ClearPending	1
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c:600:6:HAL_EXTI_GenerateSWI	1

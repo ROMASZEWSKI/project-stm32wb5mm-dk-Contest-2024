@@ -1,0 +1,9 @@
+../Drivers/BSP/Component/ds18b20/ds18b20.c:15:9:DS18B20_IsValid	1
+../Drivers/BSP/Component/ds18b20/ds18b20.c:27:9:DS18B20_GetResolution	2
+../Drivers/BSP/Component/ds18b20/ds18b20.c:62:6:DS18B20_SetResolution	6
+../Drivers/BSP/Component/ds18b20/ds18b20.c:138:6:DS18B20_Start	2
+../Drivers/BSP/Component/ds18b20/ds18b20.c:162:6:DS18B20_StartAll	1
+../Drivers/BSP/Component/ds18b20/ds18b20.c:184:6:DS18B20_Read	10
+../Drivers/BSP/Component/ds18b20/ds18b20.c:295:6:DS18B20_SetTempAlarm	4
+../Drivers/BSP/Component/ds18b20/ds18b20.c:361:9:DS18B20_AlarmSearch	2
+../Drivers/BSP/Component/ds18b20/ds18b20.c:390:9:DS18B20_Init	2

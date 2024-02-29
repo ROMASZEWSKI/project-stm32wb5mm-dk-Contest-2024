@@ -1,0 +1,14 @@
+../Drivers/BSP/Component/bme280/bme280.c:392:8:bme280_get_regs	3
+../Drivers/BSP/Component/bme280/bme280.c:418:8:bme280_set_regs	9
+../Drivers/BSP/Component/bme280/bme280.c:755:15:set_filter_standby_settings	4
+../Drivers/BSP/Component/bme280/bme280.c:688:15:set_osr_settings	8
+../Drivers/BSP/Component/bme280/bme280.c:500:8:bme280_get_sensor_settings	3
+../Drivers/BSP/Component/bme280/bme280.c:545:8:bme280_get_sensor_mode	2
+../Drivers/BSP/Component/bme280/bme280.c:565:8:bme280_soft_reset	2
+../Drivers/BSP/Component/bme280/bme280.c:352:8:bme280_init	8
+../Drivers/BSP/Component/bme280/bme280.c:850:15:put_device_to_sleep	4
+../Drivers/BSP/Component/bme280/bme280.c:469:8:bme280_set_sensor_settings	8
+../Drivers/BSP/Component/bme280/bme280.c:520:8:bme280_set_sensor_mode	6
+../Drivers/BSP/Component/bme280/bme280.c:623:6:bme280_parse_sensor_data	1
+../Drivers/BSP/Component/bme280/bme280.c:654:8:bme280_compensate_data	27
+../Drivers/BSP/Component/bme280/bme280.c:590:8:bme280_get_sensor_data	4

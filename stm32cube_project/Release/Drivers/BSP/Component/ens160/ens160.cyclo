@@ -1,0 +1,16 @@
+../Drivers/BSP/Component/ens160/ens160.c:258:9:ens160_read8	1
+../Drivers/BSP/Component/ens160/ens160.c:264:6:ens160_read	1
+../Drivers/BSP/Component/ens160/ens160.c:56:6:ens160_checkPartID	2
+../Drivers/BSP/Component/ens160/ens160.c:172:6:ens160_measure	5
+../Drivers/BSP/Component/ens160/ens160.c:199:6:ens160_measureRaw	6
+../Drivers/BSP/Component/ens160/ens160.c:271:6:ens160_write8	1
+../Drivers/BSP/Component/ens160/ens160.c:48:6:ens160_reset	2
+../Drivers/BSP/Component/ens160/ens160.c:66:6:ens160_clearCommand	3
+../Drivers/BSP/Component/ens160/ens160.c:76:6:ens160_getFirmware	6
+../Drivers/BSP/Component/ens160/ens160.c:105:6:ens160_setMode	3
+../Drivers/BSP/Component/ens160/ens160.c:22:6:ens160_init	5
+../Drivers/BSP/Component/ens160/ens160.c:117:6:ens160_initCustomMode	2
+../Drivers/BSP/Component/ens160/ens160.c:134:6:ens160_addCustomStep	7
+../Drivers/BSP/Component/ens160/ens160.c:276:6:ens160_write	1
+../Drivers/BSP/Component/ens160/ens160.c:241:6:ens160_set_envdata210	1
+../Drivers/BSP/Component/ens160/ens160.c:233:6:ens160_set_envdata	1

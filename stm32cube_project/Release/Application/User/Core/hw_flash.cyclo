@@ -1,0 +1,2 @@
+../Application/User/Core/hw_flash.c:30:5:HW_FLASH_Write	1
+../Application/User/Core/hw_flash.c:53:5:HW_FLASH_Erase	2

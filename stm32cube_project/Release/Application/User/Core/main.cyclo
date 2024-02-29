@@ -1,0 +1,8 @@
+../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h:539:22:LL_AHB2_GRP1_EnableClock	1
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/main.c:176:6:SystemClock_Config	1
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/main.c:112:5:main	4
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/main.c:270:6:MX_LPUART1_UART_Init	1
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/main.c:318:6:MX_USART1_UART_Init	1
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/main.c:455:6:PeriphClock_Config	1
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/main.c:606:6:HAL_Delay	3
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/main.c:641:6:Error_Handler	1

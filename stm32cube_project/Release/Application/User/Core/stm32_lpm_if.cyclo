@@ -1,0 +1,8 @@
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/stm32_lpm_if.c:209:6:PWR_EnterSleepMode	1
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/stm32_lpm_if.c:120:6:PWR_ExitOffMode	1
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/stm32_lpm_if.c:186:6:PWR_ExitStopMode	5
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/stm32_lpm_if.c:242:6:PWR_ExitSleepMode	1
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/stm32_lpm_if.c:335:13:Switch_On_HSI	3
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/stm32_lpm_if.c:264:13:EnterLowPower	5
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/stm32_lpm_if.c:71:6:PWR_EnterOffMode	1
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/stm32_lpm_if.c:138:6:PWR_EnterStopMode	1

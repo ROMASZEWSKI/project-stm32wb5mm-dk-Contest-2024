@@ -1,0 +1,2 @@
+../Application/User/Core/app_ds18b20.c:13:6:init_ds18b20	1
+../Application/User/Core/app_ds18b20.c:24:6:read_ds18b20	2

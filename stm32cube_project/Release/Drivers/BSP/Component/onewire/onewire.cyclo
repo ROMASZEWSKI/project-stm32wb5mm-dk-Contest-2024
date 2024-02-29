@@ -1,0 +1,12 @@
+../Drivers/BSP/Component/onewire/onewire.c:41:13:OneWire_Pin_Level	1
+../Drivers/BSP/Component/onewire/onewire.c:14:13:OneWire_Pin_Mode	2
+../Drivers/BSP/Component/onewire/onewire.c:74:13:OneWire_WriteBit	2
+../Drivers/BSP/Component/onewire/onewire.c:109:9:OneWire_ReadBit	1
+../Drivers/BSP/Component/onewire/onewire.c:141:6:OneWire_WriteByte	2
+../Drivers/BSP/Component/onewire/onewire.c:157:9:OneWire_ReadByte	2
+../Drivers/BSP/Component/onewire/onewire.c:173:9:OneWire_Reset	1
+../Drivers/BSP/Component/onewire/onewire.c:198:9:OneWire_Search	15
+../Drivers/BSP/Component/onewire/onewire.c:319:6:OneWire_GetDevRom	2
+../Drivers/BSP/Component/onewire/onewire.c:330:6:OneWire_Init	1
+../Drivers/BSP/Component/onewire/onewire.c:352:6:OneWire_SelectWithPointer	2
+../Drivers/BSP/Component/onewire/onewire.c:367:9:OneWire_CRC8	3

@@ -1,0 +1,8 @@
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/hw_uart.c:69:6:HW_UART_Receive_IT	3
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/hw_uart.c:92:6:HW_UART_Transmit_IT	3
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/hw_uart.c:115:13:HW_UART_Transmit	3
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/hw_uart.c:163:13:HW_UART_Transmit_DMA	3
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/hw_uart.c:215:6:HW_UART_Interrupt_Handler	3
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/hw_uart.c:238:6:HW_UART_DMA_Interrupt_Handler	3
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/hw_uart.c:261:6:HAL_UART_RxCpltCallback	5
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/hw_uart.c:290:6:HAL_UART_TxCpltCallback	5

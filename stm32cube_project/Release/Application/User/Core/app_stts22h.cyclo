@@ -1,0 +1,4 @@
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/app_stts22h.c:47:16:STTS22H_read	1
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/app_stts22h.c:42:16:STTS22H_write	1
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/app_stts22h.c:58:9:STTS22H_Init_Sensor	6
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/app_stts22h.c:110:6:STTS22H_getTemperatureValue	1

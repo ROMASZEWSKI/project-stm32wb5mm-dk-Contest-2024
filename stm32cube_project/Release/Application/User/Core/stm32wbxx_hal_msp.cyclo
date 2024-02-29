@@ -1,0 +1,8 @@
+../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h:539:22:LL_AHB2_GRP1_EnableClock	1
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/stm32wbxx_hal_msp.c:66:6:HAL_MspInit	1
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/stm32wbxx_hal_msp.c:110:6:HAL_IPCC_MspInit	2
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/stm32wbxx_hal_msp.c:137:6:HAL_IPCC_MspDeInit	2
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/stm32wbxx_hal_msp.c:163:6:HAL_UART_MspInit	5
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/stm32wbxx_hal_msp.c:274:6:HAL_UART_MspDeInit	3
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/stm32wbxx_hal_msp.c:334:6:HAL_RTC_MspInit	2
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/stm32wbxx_hal_msp.c:367:6:HAL_RTC_MspDeInit	2

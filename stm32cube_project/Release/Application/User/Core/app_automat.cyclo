@@ -1,0 +1,6 @@
+../Application/User/Core/app_automat.c:54:6:SetPumpState	4
+../Application/User/Core/app_automat.c:13:6:init_pump	1
+../Application/User/Core/app_automat.c:72:6:SetLightState	1
+../Application/User/Core/app_automat.c:37:6:init_light	1
+../Application/User/Core/app_automat.c:80:6:GetTankLevel	1
+../Application/User/Core/app_automat.c:46:6:init_tanklevel	1

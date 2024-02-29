@@ -1,0 +1,16 @@
+../Drivers/BSP/Component/ads1115/ADS1115.c:121:13:prepareConfigFrame	1
+../Drivers/BSP/Component/ads1115/ADS1115.c:15:9:ADS1115	1
+../Drivers/BSP/Component/ads1115/ADS1115.c:26:9:ADS1115_present	1
+../Drivers/BSP/Component/ads1115/ADS1115.c:38:6:ADS1115_updateConfig	1
+../Drivers/BSP/Component/ads1115/ADS1115.c:46:6:ADS1115_updateAddress	1
+../Drivers/BSP/Component/ads1115/ADS1115.c:61:10:ADS1115_getData	2
+../Drivers/BSP/Component/ads1115/ADS1115.c:50:10:ADS1115_oneShotMeasure	1
+../Drivers/BSP/Component/ads1115/ADS1115.c:74:10:ADS1115_readRegister	1
+../Drivers/BSP/Component/ads1115/ADS1115.c:31:6:ADS1115_isReady	1
+../Drivers/BSP/Component/ads1115/ADS1115.c:81:6:ADS1115_setThresholds	1
+../Drivers/BSP/Component/ads1115/ADS1115.c:97:6:ADS1115_flushData	1
+../Drivers/BSP/Component/ads1115/ADS1115.c:101:6:ADS1115_setConversionReadyPin	1
+../Drivers/BSP/Component/ads1115/ADS1115.c:105:6:ADS1115_startContinousMode	1
+../Drivers/BSP/Component/ads1115/ADS1115.c:113:6:ADS1115_stopContinousMode	1
+../Drivers/BSP/Component/ads1115/ADS1115.c:138:7:ADS1115_getMaxVoltage	2
+../Drivers/BSP/Component/ads1115/ADS1115.c:127:7:ADS1115_toVoltage	3

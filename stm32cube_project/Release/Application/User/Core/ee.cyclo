@@ -1,0 +1,11 @@
+../Application/User/Core/ee.c:705:17:EE_Crc	1
+../Application/User/Core/ee.c:616:12:EE_ReadEl.constprop	7
+../Application/User/Core/ee.c:660:12:EE_SetState.constprop	1
+../Application/User/Core/ee.c:685:17:EE_GetState.constprop	3
+../Application/User/Core/ee.c:547:12:EE_WriteEl.constprop	6
+../Application/User/Core/ee.c:475:12:EE_Transfer.constprop	13
+../Application/User/Core/ee.c:149:5:EE_Init	23
+../Application/User/Core/ee.c:210:5:EE_Read	1
+../Application/User/Core/ee.c:287:5:EE_Clean	2
+../Application/User/Core/ee.c:220:5:EE_Write	6
+../Application/User/Core/ee.c:320:6:EE_Dump	5

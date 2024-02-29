@@ -1,0 +1,12 @@
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/hw_timerserver.c:107:17:ReadRtcSsrValue	2
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/hw_timerserver.c:252:13:UnlinkTimer	5
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/hw_timerserver.c:294:17:ReturnTimeElapsed	3
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/hw_timerserver.c:395:13:RescheduleTimerList	11
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/hw_timerserver.c:589:6:HW_TS_Init	4
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/hw_timerserver.c:670:22:HW_TS_Create	3
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/hw_timerserver.c:724:6:HW_TS_Stop	7
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/hw_timerserver.c:715:6:HW_TS_Delete	1
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/hw_timerserver.c:796:6:HW_TS_Start	9
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/hw_timerserver.c:850:10:HW_TS_RTC_ReadLeftTicksToCount	3
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/hw_timerserver.c:883:13:HW_TS_RTC_Int_AppNot	1
+C:/Users/mag/STM32CubeIDE/workspace_1.13.0/Zigbee_TempMeas_Server_Coord/Core/Src/hw_timerserver.c:487:6:HW_TS_RTC_Wakeup_Handler	5
