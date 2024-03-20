@@ -59,7 +59,8 @@
             "6819faa7e05fb6f4",
             "ccccd2d98a50cfe3",
             "d806be4ea05b2683",
-            "201a1a7647db5c99"
+            "201a1a7647db5c99",
+            "17daee5d9bbda980"
         ],
         "x": 34,
         "y": 3079,
@@ -601,7 +602,7 @@
         "type": "inject",
         "z": "b9d6d847700528fd",
         "g": "dbd2a1ce0a315409",
-        "name": "master read first attributes",
+        "name": "master read first attributes every minute",
         "props": [
             {
                 "p": "payload"
@@ -614,7 +615,7 @@
         "topic": "",
         "payload": "{\"read\":{\"attributes\":[\"measuredValue\",\"TemperatureEnv\",\"BatteryVoltage\",\"Humidity\",\"Pressure\",\"AirQuality\",\"Co2\",\"Tvoc\"],\"cluster\":\"msTemperatureMeasurement\",\"options\":{}}}",
         "payloadType": "json",
-        "x": 1600,
+        "x": 1500,
         "y": 1180,
         "wires": [
             [
@@ -3127,7 +3128,7 @@
         "z": "b9d6d847700528fd",
         "g": "9fa19268436c19ce",
         "name": "Light management",
-        "func": "msg.payload=\"\";\nmsg.topic=\"\";\n// verify if mqtt and stm32 board actives\nif (global.get(\"StateSendMqtt\")==1)\n{\n    switch(global.get(\"LightAutomation\"))\n    {\n        // manual\n        case 0:\n            msg.topic = \"Manual mode for light...\";\n            break;\n        // Light On if Luminosity to low\n        case 1: \n            if (global.get(\"LightLimit\") > global.get(\"Luminosity\")) {\n                msg.topic = \"Light On because Brightness is low...\";\n                global.set(\"DesiredStateLight\",1);\n            }\n            else \n            {\n                msg.topic = \"Light Off because Brightness is hight...\";                        \n                global.set(\"DesiredStateLight\", 0);\n            }\n            break;\n        // use sheduler for light on            \n        case 2:\n            if (global.get(\"StateLightSheduler\") == 1) {\n                msg.topic = \"Light On by sheduler...\";                        \n                global.set(\"DesiredStateLight\", 1);\n            }\n            else {\n                msg.topic = \"Light Off by sheduler...\";                          \n                global.set(\"DesiredStateLight\", 0);\n            }  \n            break;   \n        // use sheduler and level        \n        case 3:\n            if (global.get(\"StateLightSheduler\") == 1) {\n                if (global.get(\"LightLimit\") > global.get(\"Luminosity\")) {\n                    msg.topic = \"Light On by sheduler and Brightness is low...\";                            \n                    global.set(\"DesiredStateLight\", 1);\n                }\n                else {\n                     msg.topic = \"Light Off by sheduler and Brightness is hight...\";                             \n                    global.set(\"DesiredStateLight\", 0);\n                }\n            }\n            else {\n                if (global.get(\"DesiredStateLight\") != 0) {\n                    msg.topic = \"Light Off by sheduler...\";                        \n                    msg.payload = 0;\n                }\n            }\n            break;\n        // Light On if Luminosity to low and it's day\n        case 4:\n            if (global.get(\"DayOrNight\") == \"Day\")\n            {\n                if (global.get(\"LightLimit\") > global.get(\"Luminosity\")) {\n                    msg.topic = \"Light On because Brightness is low and it's Day...\";\n                    global.set(\"DesiredStateLight\", 1);\n                }\n                else {\n                    msg.topic = \"Light Off because Brightness is hight... and it's Day\";\n                    global.set(\"DesiredStateLight\", 0);\n                }\n            }\n            else\n            {\n                msg.topic = \"Light Off because it's Night\";\n                global.set(\"DesiredStateLight\", 0);\n            }           \n            break;            \n        default:\n            break;\n                        \n    }\n}\nelse\n{\n    msg.topic = \"Zigbee2mqtt or stm32 not active...\";\n}\nmsg.payload = global.get(\"DesiredStateLight\");\nreturn msg;\n\n\n",
+        "func": "msg.payload=\"\";\nmsg.topic=\"\";\n// verify if mqtt and stm32 board actives\nif (global.get(\"StateSendMqtt\")==1)\n{\n    switch (Number(global.get(\"LightAutomation\")))\n    {\n        // manual\n        case 0:\n            msg.topic = \"Manual mode for light...\";\n            break;\n        // Light On if Luminosity to low\n        case 1: \n            if (global.get(\"LightLimit\") > global.get(\"Luminosity\")) {\n                msg.topic = \"Light On because Brightness is low...\";\n                global.set(\"DesiredStateLight\",1);\n            }\n            else \n            {\n                msg.topic = \"Light Off because Brightness is hight...\";                        \n                global.set(\"DesiredStateLight\", 0);\n            }\n            break;\n        // use sheduler for light on            \n        case 2:\n            if (global.get(\"StateLightSheduler\") == 1) {\n                msg.topic = \"Light On by sheduler...\";                        \n                global.set(\"DesiredStateLight\", 1);\n            }\n            else {\n                msg.topic = \"Light Off by sheduler...\";                          \n                global.set(\"DesiredStateLight\", 0);\n            }  \n            break;   \n        // use sheduler and level        \n        case 3:\n            if (global.get(\"StateLightSheduler\") == 1) {\n                if (global.get(\"LightLimit\") > global.get(\"Luminosity\")) {\n                    msg.topic = \"Light On by sheduler and Brightness is low...\";                            \n                    global.set(\"DesiredStateLight\", 1);\n                }\n                else {\n                     msg.topic = \"Light Off by sheduler and Brightness is hight...\";                             \n                    global.set(\"DesiredStateLight\", 0);\n                }\n            }\n            else {\n                if (global.get(\"DesiredStateLight\") != 0) {\n                    msg.topic = \"Light Off by sheduler...\";                        \n                    msg.payload = 0;\n                }\n            }\n            break;\n        // Light On if Luminosity to low and it's day\n        case 4:\n            if (global.get(\"DayOrNight\") == \"Day\")\n            {\n                if (global.get(\"LightLimit\") > global.get(\"Luminosity\")) {\n                    msg.topic = \"Light On because Brightness is low and it's Day...\";\n                    global.set(\"DesiredStateLight\", 1);\n                }\n                else {\n                    msg.topic = \"Light Off because Brightness is hight... and it's Day\";\n                    global.set(\"DesiredStateLight\", 0);\n                }\n            }\n            else\n            {\n                msg.topic = \"Light Off because it's Night\";\n                global.set(\"DesiredStateLight\", 0);\n            }           \n            break;            \n        default:\n        msg.topic = \"??\";\n            msg.info=global.get(\"LightAutomation\"); \n            break;\n                        \n    }\n}\nelse\n{\n    msg.topic = \"Zigbee2mqtt or stm32 not active...\";\n}\nmsg.payload = global.get(\"DesiredStateLight\");\nreturn msg;\n\n\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -3326,7 +3327,7 @@
         "wires": [
             [
                 "f63ce23337217ff5",
-                "e24b521241219287"
+                "17daee5d9bbda980"
             ]
         ]
     },
@@ -6916,6 +6917,27 @@
         ]
     },
     {
+        "id": "17daee5d9bbda980",
+        "type": "function",
+        "z": "b9d6d847700528fd",
+        "g": "9fa19268436c19ce",
+        "name": "update LightAutomation",
+        "func": "global.set(\"LightAutomation\",msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 3440,
+        "wires": [
+            [
+                "e24b521241219287"
+            ]
+        ]
+    },
+    {
         "id": "46f26d39074830ad",
         "type": "ui_spacer",
         "z": "b9d6d847700528fd",
@@ -7439,7 +7461,7 @@
         "id": "b06087975a0e7478",
         "type": "mqtt-broker",
         "name": "Mqtt vps1",
-        "broker": "mqtt://vps1.sophe.com",
+        "broker": "mqtt://xxx.xxx.com",
         "port": "1883",
         "clientid": "",
         "autoConnect": true,
