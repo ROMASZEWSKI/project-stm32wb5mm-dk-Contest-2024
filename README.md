@@ -78,3 +78,5 @@ https://github.com/ROMASZEWSKI/project-stm32wb5mm-dk-Contest-2024/tree/main/node
 And some photos and datasheets.<br />
 https://github.com/ROMASZEWSKI/project-stm32wb5mm-dk-Contest-2024/tree/main/photos<br/>
 https://github.com/ROMASZEWSKI/project-stm32wb5mm-dk-Contest-2024/blob/main/datasheets.zip<br>
+<h3>New version updated with stm32CubeMX support and firmware 1.20 - November 2024</h3>
+https://github.com/ROMASZEWSKI/project-stm32wb5mm-dk-Contest-2024/blob/main/greenhouse2.zip<br />
